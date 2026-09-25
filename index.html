@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aiken's Personal Portfolio</title>
+  <!-- Connecting CSS (Part 4) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <h1>Aiken's Personal Profile</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#hobbies">Hobbies & Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#widgets">Live Widgets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+    
+    <!-- Section 1: About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="IMG_20260925_145202_396.jpg" alt="Profile Picture" class="profile-pic">
+      <p>Hello! I am a computer science student who loves to create something new.</p>
+    </section>
+
+    <!-- Section 2: Hobbies & Skills -->
+    <section id="hobbies">
+      <h2>My Hobbies & Skills</h2>
+      <ul class="simple-list">
+        <li>C++</li>
+        <li>Video Gaming</li>
+        <li>Reading Manga</li>
+      </ul>
+    </section>
+
+    <!-- Section 3: My Projects -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p>Check out my latest school assignment on <a href="https://github.com/Aiken1016" target="_blank">GitHub</a>.</p>
+    </section>
+
+    <!-- Section 4: Live JavaScript Widgets -->
+    <section id="widgets">
+      <h2>Interactive Features</h2>
+
+      <!-- JS Feature 1: Live Clock -->
+      <div class="card">
+        <h3>Live Clock</h3>
+        <p id="live-clock">00:00:00 AM</p>
+      </div>
+
+      <!-- JS Feature 2: Countdown Timer -->
+      <div class="card">
+        <h3>Countdown to Christmas</h3>
+        <p id="countdown-timer">Loading countdown...</p>
+      </div>
+
+      <!-- JS Feature 3: Interactive Button -->
+      <div class="card">
+        <h3>Interactive Message</h3>
+        <button id="msg-btn">Touch Me!</button>
+        <p id="btn-message"></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Aiken's Student Portfolio. Created for Activity.</p>
+  </footer>
+
+  <!-- Connecting JavaScript (Part 5) -->
+  <script src="script.js"></script>
+</body>
+</html>
